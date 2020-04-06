@@ -1,0 +1,408 @@
+/* CSS Document */
+@font-face{
+	src:url("Font/WildYouth-Regular.otf");
+	font-family: 'Wild Youth';
+}
+@font-face{
+	src:url("Font/#9Slide03 SFU Futura Light.ttf");
+	font-family: "#9Slide03 SFU Futura_09";
+		
+}
+body{
+	width: 1900px;
+	height: 6200px;
+	background:#191E20;
+	margin:0 auto;
+}
+.top_head{
+	width: 1900px;
+	height: 373.669px;
+}
+.logo{
+	width:558.223px;
+	height:222.55px;
+	float:left;
+	margin-top: 75.181px;
+	margin-left: 129.644px;
+}
+.menu{
+	width: 656.866px;
+	height:64.489px;
+	float: left;
+	margin-top: 175.484px;
+	margin-left: 520.985px;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 30px 0px;
+	font-size: 21px;
+	line-height: 64.489px;
+	color: white;
+	transition-duration: 0.3s;
+	display: block;
+	border-radius: 20px;
+	font-family: "#9Slide03 SFU Futura_09";
+}
+
+.banner{
+	width: 1900px;
+	background-image: url("Images/ivan-bandura-5cwigXmGWTo-unsplash.jpg");
+	height: 944.848px;
+}
+.box_text{
+	width: 887.011px;
+	background: #191e20;
+	height: 561.872px;
+	float: right;
+	margin-top: 193.488px;
+}
+.box{
+	width: 546.569px;
+	height: 431.472px ;
+	margin-left: 79.468px;
+	margin-top: 86.702px;
+	line-height: 0.6
+	
+}
+.box #titles_1{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size:  48.12px;
+	margin-left: 11px
+}
+.box #titles_2{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size:  272.06px;
+}
+.box #titles_3{
+	color: white;
+	font-family: 'Arima Madurai', cursive;
+	font-size:  24px;
+	line-height: 1.2;
+}
+.button a{
+	border: 3px solid #075674;
+	width: 184.773px;
+	height: 65.472px;
+	color: white;
+	text-align: center;
+	line-height:  65.472px;
+	font-family: 'Arima Madurai', cursive;
+	font-style: bold;
+	font-size: 25.81px;
+	border-radius: 30px;
+	display: block;
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+.mean{
+	width: 1900px ;
+	height:624.096px ;
+}
+.mean_1{
+	width: 1750.891px;
+	height: 264.543px; 
+	margin-left: 85.121px;
+	margin-top: 141.89px;
+	float: left;		
+}
+.mean_1 h{
+	color: #e08a7b;
+	font-family: "Wild Youth";
+	font-size: 63px;
+	text-shadow: 10px 10px 10px black;;
+}
+.mean_1 p{
+	color: white;
+	font-family: "#9Slide03 SFU Futura_09";
+	width: 1434.732px;
+	height: 131.273px;
+	margin-left: 316.159px;
+	margin-top: 110.px;
+	font-size: 24px
+}
+.topic{
+	width: 1903.197px;
+	height: 773.24px;
+}
+.topic1 #pic1{
+	margin-left: 18.56px;
+	float: left;
+	position: relative;
+	width:584.069px;
+	
+}
+.box1{
+	background: black;
+	width: 584.069px;
+	height: 584.069px;
+	position: absolute;
+	margin-left: 18.56px;
+	opacity: 0.1;
+	visibility:hidden;
+	transition-duration: 0.3s;
+	cursor:pointer;
+}
+.box1 .hr{
+	width: 170px;
+	background: white;
+	height: 2px;
+	float: left;
+	margin-left: 210px;
+	margin-top: -220px
+}
+.box1 p{
+	color: white;
+	font-family: "#9Slide03 SFU Futura_09";
+	width: 430px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-left: 90px;
+	margin-top: 370px
+}
+.box2 p{
+	color: white;
+	font-family: "#9Slide03 SFU Futura_09";
+	width: 430px;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-left: 90px;
+	margin-top: 390px;
+	text-align: center
+}
+.box3 p{
+	color: white;
+	font-family: "#9Slide03 SFU Futura_09";
+	width: 400px;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-left: 90px;
+	margin-top: 350px;
+	text-align: center
+}
+.topic2 #pic2{
+	margin-left: 55.337px;
+	float: left;
+	position: relative;
+	width:584.069px;
+}
+.box2{
+	background: #191E20;
+	width: 584.069px;
+	height: 584.069px;
+	position: absolute;
+	opacity: 0.1;
+	margin-left: 658px;
+	visibility:hidden;
+	transition-duration: 0.3s;
+	cursor:pointer;
+
+}
+.box2 .hr{
+	width: 170px;
+	background: white;
+	height: 2px;
+	float: left;
+	margin-left: 225px;
+	margin-top: -160px
+}
+.topic3 #pic3{
+	margin-left: 55.337px;
+	position: relative;
+	float: left;
+	
+}
+.box3{
+	background: #191E20;
+	width: 584.069px;
+	height: 584.069px;
+	position: absolute;
+	opacity: 0.1;
+	margin-left: 1297px;
+	visibility:hidden;
+	transition-duration: 0.3s;
+	cursor:pointer;
+
+}
+.box3 .hr{
+	width: 170px;
+	background: white;
+	height: 2px;
+	float: left;
+	margin-left: 200px;
+	margin-top: -220px
+}
+.ocean{
+	width: 1900px;
+	height: 1325.283px;
+}
+.hinh{
+	width:783.158px; 
+	height:1107.464px;
+	float: left;
+}
+.hinh img{
+	margin-left: 76.082px;
+}
+.text1{
+	width: 739.355px;
+	height: 663.017px;
+	background: #075674;
+	margin-left: 859.24px;
+}
+.space{
+	height: 222.223px;
+}
+.text1 p{
+	font-size:26px;
+	font-family: "#9Slide03 SFU Futura_09";
+	color: white;
+	margin-left: 34.935px;
+	line-height:1.4; 
+}
+.ocean h1{
+	font-family: "Wild Youth";
+	font-size: 134.14px;
+	color: #E08A7B;
+	width: 666.71px;
+	float: left;
+	margin-left: 270px;
+	margin-top: -50px;
+	cursor: pointer;
+	text-shadow: 5px 11px black;
+}
+hr{
+	width: 1768.326px;
+	background: #E08A7B;
+	height: 2px;
+}
+.sky{
+	width: 1900px;
+	height:1285.583px ;
+	
+}
+.sky .hinh {
+	float: right;
+	margin-right: 170px;
+	margin-top: 70px;
+}
+.sky .text2 .box_text{
+	width: 550.988px;
+	float: right;
+	margin-top: -899px;
+	background: none;
+	margin-right: 90px;
+}
+.text2{
+	width: 641.343px;
+	height: 573.664px;
+	background: #075674;
+	margin-left: 400px;
+}
+.text2 p{
+	font-size:26px;
+	font-family: "#9Slide03 SFU Futura_09";
+	color: white;
+	line-height:1.2; 
+	width: 550.988px;
+	margin-left: 48.431px;
+
+}
+.sky h1{
+	font-family:  "Wild Youth";
+	font-size: 130px;
+	float: right;
+	margin-top: -70px;
+	line-height: 0.9;
+	margin-right: -150px;
+	color: #E08A7B;
+	cursor:pointer;
+	text-shadow: 5px 11px black;
+}
+.detail{
+	width: 1900px;
+	background: grey;
+	height:  546.323px;
+}
+.detail .hinh{
+	background-image: url( "Images/123456.png");
+	width: 1900px;
+	height: 547px;
+	background-repeat: no-repeat;
+	
+}
+.detail .hinh .text{
+	width: 524.229px;
+	height: 280.996px;
+	margin-left: 694.243px;
+	margin-top: 129.612px;
+}
+.detail .hinh .text h1{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 75px;
+	line-height: 0.9;
+	color: white;
+	letter-spacing: 1.5px;
+}
+input[type="text"] {
+      width: 490.23px;
+      border: 1px solid black;
+      border-radius: 10px;
+      outline:none;
+      padding: 12px 14px;
+	  height: 28.398px
+    }
+.footer{
+	width: 1000px;
+	height:3px;
+	background: #075674;
+	margin-top: 100px;
+	margin-left: 450px;
+}
+.menu2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: block;
+	
+}
+.menu2 ul li{
+	display: inline-block;
+	line-height: 43px;
+	
+}
+.menu2 ul li a{
+	text-decoration: none;
+	padding: 0px 15px 0px;
+	font-size: 16px;
+	line-height: 64.489px;
+	color: white;
+	transition-duration: 0.3s;
+	display: block;
+	font-family: "#9Slide03 SFU Futura_09";
+	line-height: 2.6;
+	margin-top: 17px;
+}
+.footer p{
+	color: white;
+	font-family: "#9Slide03 SFU Futura_09";
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10
+	
+}

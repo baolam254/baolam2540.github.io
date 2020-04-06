@@ -1,0 +1,56 @@
+/* CSS Document */
+.menu ul li:hover a{
+	background: #e08a7b;
+	border-radius: 30px;
+}
+.box .button:hover a{
+	background: #075674;
+}
+.topic1:hover .box1{
+	visibility: visible;
+	opacity: 0.8;
+	
+}
+.topic2:hover .box2{
+	visibility: visible;
+	opacity: 0.9;
+	
+}
+.topic3:hover .box3{
+	visibility: visible;
+	opacity: 0.8;
+}
+.ocean h1:hover {
+  -webkit-animation: neon 2.5s ease-in-out infinite alternate; 
+}
+.sky h1:hover {
+  -webkit-animation: neon 2.5s ease-in-out infinite alternate; 
+}
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #EAB3AC,
+               0 0 70px  #EAB3AC,
+               0 0 80px  #EAB3AC,
+               0 0 100px #EAB3AC,
+               0 0 150px #EAB3AC;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #EAB3AC,
+               0 0 35px #EAB3AC,
+               0 0 40px #EAB3AC,
+               0 0 50px #EAB3AC,
+               0 0 75px #EAB3AC;
+  }
+}
+.menu ul li:hover .submenu{
+	visibility: visible;
+}
+.menu2 ul li:hover a{
+	color:#e08a7b;
+}
